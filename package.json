@@ -1,0 +1,29 @@
+{
+  "name": "RauschDevelopment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "npm": "^6.2.0",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-materialize": "^2.3.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "An online web development portfolio for David Rausch",
+  "main": "index.js",
+  "repository": "git@github.com:drausch84/portfolio.git",
+  "author": "David Rausch",
+  "license": "MIT"
+}
