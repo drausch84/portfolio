@@ -11,6 +11,8 @@ function Footer(){
    return <footer className = "footer">
    <div>
         <Row>
+        </Row>        
+        <Row>
         <Col s = {2}>
         </Col>    
          <Col s = {2}>

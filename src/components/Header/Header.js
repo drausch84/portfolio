@@ -3,7 +3,7 @@ import "./Header.css";
 import Logo from "./logo.png";
 
 function Header (){
-return <img src = {Logo} className ="logo" />
+return <h1>David Rausch</h1>
 }
 
 export default Header;
