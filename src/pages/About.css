@@ -216,7 +216,7 @@ figure.outdoor-pic.hover figcaption{
     transform: rotate(0)scale(1);
 }
 
-div span{
+.certificate-caption{
     position: absolute;
     bottom: -20px;
     left: 0;

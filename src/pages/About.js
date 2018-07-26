@@ -47,7 +47,7 @@ class About extends Component{
                         <figure>
                             <img src = {Certificate} className = "du-certificate"/>
                         </figure>
-                        <span> My Certificate of Completion</span>
+                        <span className = "certificate-caption"> My Certificate of Completion</span>
                     </div>    
                 </Col>
             </Row>
