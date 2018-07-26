@@ -3,15 +3,15 @@ import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import {Col, Row} from "react-materialize";
 import "./About.css";
-import Certificate from "./DUcertificate.png";
-import BoothFalls from "./Booth Falls.jpg";
-import Causeway from "./Devil's Causeway.jpg";
-import GOG from "./Garden Of Gods.jpg";
-import Hike from "./Hike.jpg";
-import Incline from "./incline.jpg";
-import Loveland from "./loveland.jpg";
-import PLT from "./PLT.jpg";
-import Kayak from "./kayak.jpg";
+import Certificate from "./images/DUcertificate.png";
+import BoothFalls from "./images/Booth Falls.jpg";
+import Causeway from "./images/Devil's Causeway.jpg";
+import GOG from "./images/Garden Of Gods.jpg";
+import Hike from "./images/Hike.jpg";
+import Incline from "./images/incline.jpg";
+import Loveland from "./images/loveland.jpg";
+import PLT from "./images/PLT.jpg";
+import Kayak from "./images/kayak.jpg";
 
 class About extends Component{
     render(){
