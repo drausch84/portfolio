@@ -20,6 +20,8 @@
        
       <!-- Import materialize.css -->
      <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+     <!-- Import AOS animations -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    
     
       <title>Rausch Development</title>
@@ -44,7 +46,12 @@
     <!-- Import jQuery before materialize.js -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
     <!-- And then your bundled js -->
   <script src="path/to/your/bundle.js"></script>
 </html>

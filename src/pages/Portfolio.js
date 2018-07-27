@@ -28,7 +28,7 @@ class Portfolio extends Component{
                 <p className = "portfolio-p">These are a few projects(most done during my time in the University of Denver Coding Boot Camp) to showcase my 
                 abilities using different technologies. Each displayed project will list the technologies that went into its creation.  This list of projects 
                 will continue to grow as there are a few projects that are nearing completion, and my restless nature doesn't allow me to rest on my laurels 
-                and I practice my ABCs(Always Be Coding).</p>
+                because I practice my ABCs(Always Be Coding).</p>
                 </Col>
             </Row> 
             <Row></Row>
@@ -40,7 +40,7 @@ class Portfolio extends Component{
                     </div>
                 </Col>
                 <Col l = {6}>
-                    <div className = "project-info-right">
+                    <div className = "project-info-right" data-aos = "fade-left">
                         <h4>South Park Memory Game</h4>
                         <hr width = "75%"/>
                         <h6>Made with React and MaterializeCSS</h6>
@@ -48,10 +48,14 @@ class Portfolio extends Component{
                     </div>
                 </Col>
             </Row>
-           
+           <Row></Row>
+           <Row></Row>
+           <Row></Row>
+           <Row></Row>
+           <Row></Row>
             <Row>
                 <Col l = {6}>
-                    <div className = "project-info-left">
+                    <div className = "project-info-left" data-aos = "fade-right">
                         <h4>FriendFinder App</h4>
                         <hr width = "75%"/>
                         <h6>Made with Node.js, JS, Express.js, MaterializeCSS, and jQuery</h6>
@@ -64,7 +68,11 @@ class Portfolio extends Component{
                     </div>      
                 </Col>
             </Row>
-
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
             <Row>
                 <Col l = {6}>
                     <div className = "image">
@@ -72,7 +80,7 @@ class Portfolio extends Component{
                     </div>
                 </Col>
                 <Col l = {6}>
-                    <div className = "project-info-right">
+                    <div className = "project-info-right" data-aos = "fade-left">
                         <h4>Bamazon</h4>
                         <hr width = "75%"/>
                         <h6>Made with Node.js and MySQL</h6>
@@ -80,10 +88,14 @@ class Portfolio extends Component{
                     </div>
                 </Col>
             </Row>
-
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
             <Row>
                 <Col l = {6}>
-                    <div className = "project-info-left">
+                    <div className = "project-info-left" data-aos = "fade-right">
                         <h4>Giphy Gif Project</h4>
                         <hr width = "75%"/>
                         <h6>Made with API integration, JS, and BootstrapCSS</h6>   
@@ -96,7 +108,11 @@ class Portfolio extends Component{
                     </div>
                 </Col>
             </Row>
-
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
             <Row>
                 <Col l = {6}>
                     <div className = "image">
@@ -104,7 +120,7 @@ class Portfolio extends Component{
                     </div>
                 </Col>
                 <Col l = {6}>
-                    <div className = "project-info-right">
+                    <div className = "project-info-right" data-aos = "fade-left">
                         <h4>Eat Da Burger App</h4>
                         <hr width = "75%"/>
                         <h6>Made with Node.js, Express.js, MySQL, Handlebars.js, JS, and MaterializeCSS</h6>   
@@ -112,10 +128,14 @@ class Portfolio extends Component{
                     </div>
                 </Col>
             </Row>
-
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
             <Row>
                 <Col l = {6}>
-                    <div className = "project-info-left">
+                    <div className = "project-info-left" data-aos = "fade-right">
                         <h4>LIRI App</h4>
                         <hr width = "75%"/>
                         <h6>Made with API integration and Node.js</h6>
@@ -128,7 +148,11 @@ class Portfolio extends Component{
                     </div>
                 </Col>
             </Row>
-
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
+            <Row></Row>
             <Row>
                 <Col l = {6}>
                     <div className= "image">
@@ -136,7 +160,7 @@ class Portfolio extends Component{
                     </div>
                 </Col>
                 <Col l = {6}>
-                    <div className = "project-info-right">
+                    <div className = "project-info-right" data-aos = "fade-left">
                         <h4>Breaking Bad Trivia Game</h4>
                         <hr width = "75%"/>
                         <h6>Made with JS and jQuery</h6>    
