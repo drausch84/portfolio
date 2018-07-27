@@ -9,11 +9,19 @@
     text-align: center;
     color: black;
     font-size: 1.2em;
+    border-bottom : 2px groove black;
 }
-.project-info{
-   
+.project-info-right{
+   border-left : 5px solid #A00000;
+  
 
 }
+
+.project-info-left{
+    border-right: 5px solid #A00000;
+    
+}
+
   h6,
   h4{  
     text-align: center;
@@ -30,46 +38,36 @@ h4{
     color: #181818;
 }
 
-.image-1{
-    background-image: url("./images/clicky-game.png");
+.image{
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 300px;
+    padding: 0px 70px;
+    transition: .2s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
-.image-2{
-    background-image: url("./images/friendfinder.png");
-}
 
-.image-3{
-    background-image: url("./images/bamazon.jpg");
-}
-
-.image-4{
-    background-image: url("./images/giphyproject.png");
-}
-
-.image-5{
-    background-image: url("./images/hamburger.png");
-}
-
-.image-6{
-    background-image: url("./images/liri.png");
-}
-
-.image-7{
-    background-image: url("./images/triviagame.png");
-}
-
-.image-1:after,
-.image-2:after,
-.image-3:after,
-.image-4:after,
-.image-5:after,
-.image-6:after,
-.image-7:after{
-
+.image:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 .click-btn{
     height: 40px;
+}
+.click-btn:hover{
+    background:#A00000 ;
+    border-radius:50%;
+    -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
 }
 
 .link{
