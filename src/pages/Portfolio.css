@@ -8,5 +8,70 @@
     font-family: 'Slabo 27px', serif;
     text-align: center;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+.project-info{
+   
+
+}
+  h6,
+  h4{  
+    text-align: center;
+    padding: 10px;
+    border-radius: 10%;
+}
+h6{
+    font-family: 'Slabo 27px', serif;
+    color: #707070;
+}
+
+h4{
+    font-family: 'Cormorant Unicase', serif;
+    color: #181818;
+}
+
+.image-1{
+    background-image: url("./images/clicky-game.png");
+}
+
+.image-2{
+    background-image: url("./images/friendfinder.png");
+}
+
+.image-3{
+    background-image: url("./images/bamazon.jpg");
+}
+
+.image-4{
+    background-image: url("./images/giphyproject.png");
+}
+
+.image-5{
+    background-image: url("./images/hamburger.png");
+}
+
+.image-6{
+    background-image: url("./images/liri.png");
+}
+
+.image-7{
+    background-image: url("./images/triviagame.png");
+}
+
+.image-1:after,
+.image-2:after,
+.image-3:after,
+.image-4:after,
+.image-5:after,
+.image-6:after,
+.image-7:after{
+
+}
+
+.click-btn{
+    height: 40px;
+}
+
+.link{
+    text-align: center;
 }

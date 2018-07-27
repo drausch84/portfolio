@@ -6,78 +6,19 @@ import TriviaGame from "./TriviaGame.png";
 import Giphy from "./GiphyProject.png";
 import Bamazon from "./bamazon.jpg";
 import Liri from "./Liri.png";
+import {Carousel} from "react-materialize";
 
-function Carousel(){
-        return <div>
-            <ul className="slider">
-                <li>
-                    <a href = "https://damp-sierra-29013.herokuapp.com" target = "_blank">
-                    <input type="radio" id="slide1" name="slide" checked/>
-                    <label for="slide1"></label>
-                    <img src= {ClickGame} alt="Panel 1"/>
-                    <h6>South Park Memory Game</h6>
-                    <h8>Made with ReactJS and MaterializeCSS</h8>
-                    </a>
-                </li>
-                 <li>
-                    <a href = "https://afternoon-refuge-63972.herokuapp.com" target = "_blank">
-                    <input type="radio" id="slide2" name="slide"/>
-                    <label for="slide2"></label>
-                    <img src= {Hamburger} alt="Panel 2"/>
-                    <h6>Eat-Da-Burger</h6>
-                    <h8>Made with Node.js, Express.js, MySQL, Handlebars.js, JS and MaterializeCSS</h8>
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://lit-temple-87580.herokuapp.com" target = "_blank">
-                    <input type="radio" id="slide3" name="slide"/>
-                    <label for="slide3"></label>
-                    <img src= {FriendFinder} alt="Panel 3"/>
-                    <h6>Friend Finder App</h6>
-                    <h8>Made with Node.js, JS, Express.js, jQuery, and MaterializeCSS</h8>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://drausch84.github.io/TriviaGame/" target = "_blank">
-                    <input type="radio" id="slide4" name="slide"/>
-                    <label for="slide4"></label>
-                    <img src= {TriviaGame} alt="Panel 4"/>
-                    <h6>Breaking Bad Trivia Game</h6>
-                    <h8>Made with JS, jQuery, and BootstrapCSS</h8>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://drausch84.github.io/Giphy-Project/" target = "_blank">
-                    <input type="radio" id="slide5" name="slide"/>
-                    <label for="slide4"></label>
-                    <img src= {Giphy} alt="Panel 5"/>
-                    <h6>Giphy TV Search</h6>
-                    <h8>Made with API integration, JS, jQuery, and BootstrapCSS</h8>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=VP7JfELPBxc&t=192s" target = "_blank">
-                    <input type="radio" id="slide6" name="slide"/>
-                    <label for="slide4"></label>
-                    <img src= {Bamazon} alt="Panel 6"/>
-                    <h6>Bamazon Shopping App</h6>
-                    <h8>Made with MySQL and Node.js</h8>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=3H4b1NIrjt4&t=181s" target = "_blank">
-                    <input type="radio" id="slide7" name="slide"/>
-                    <label for="slide4"></label>
-                    <img src= {Liri} alt="Panel 7"/>
-                    <h6>LIRI(Siri clone) App</h6>
-                    <h8>Made with API integration and Node.js</h8>
-                    </a>
-                </li>
+function ProjectCarousel(){
+        return <Carousel images={[
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Macaca_sinica_-_01.jpg/220px-Macaca_sinica_-_01.jpg',
+            'https://ichef.bbci.co.uk/news/624/cpsprodpb/8C06/production/_102564853_gettyimages-148406869.jpg',
+            'https://www.tellusaboutus.com/comments/images/BK-WebComment/BB_WHOPPER-v1.png',
+            'https://nylon-img.imgix.net/featured_images/attachments/000/027/629/original/aaronpaul.jpg?auto=format&ch=Width%2CDPR&q=75&w=640&ixlib=js-1.1.1&cs=strip&crop=&s=b0085f7eab544991c7e4c5ebf48cf3c3'
+          ]} />
 
-            </ul>
-            </div>
+        
     };
      
 
-export default Carousel;
+export default ProjectCarousel;
 

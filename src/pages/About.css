@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
+body{
+    background: #F0F0F0;
+}
 figure.outdoor-pic{
     font-family: "Raleway", Arial, sans-serif;
     position: relative;
@@ -184,7 +187,7 @@ figure.outdoor-pic.hover figcaption{
     font-family: 'Slabo 27px', serif;
     text-align: center;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .du-certificate{
