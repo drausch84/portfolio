@@ -8,6 +8,12 @@ class Skills extends Component{
         return(
             <div>
                 <Navbar />
+                <Row>
+                    <Col l = {12}>
+                        <h1 className = "skills-header">Skills</h1>
+                    </Col>
+                    <hr width = "75%" />
+                </Row>
                 <Footer />
             </div>
         );

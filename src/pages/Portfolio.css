@@ -10,6 +10,7 @@
     color: black;
     font-size: 1.2em;
     border-bottom : 2px groove black;
+    
 }
 .project-info-right{
    border-left : 5px solid #A00000;
@@ -54,6 +55,7 @@ h4{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+    
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
