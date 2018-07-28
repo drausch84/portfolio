@@ -100,28 +100,23 @@ class Contact extends Component{
 
                 <Row>
                     <Col l = {12}>
-                    <div className="contact-container">
-                        {/* <form action="action_page.php"/>
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
-                            <label for="country">Country</label>
-                            <select id="country" name="country"/>
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                            </select>
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                            <input type="submit" value="Submit"/>
-                        </form> */}
+                    <div className="form-container">
+                    <form method="POST" action="https://formspree.io/rausch.david84@gmail.com">
+                        <input type="email" className="email" placeholder="Your email"/>
+                        <input type = "subject" className = "subject" placeholder = "Subject"/>
+                        <textarea className="message" placeholder="Your message"></textarea>
+                        <button type="submit" className = "submit-btn">Send</button>
+                    </form>
                     </div>
                     </Col>
                 </Row>
                 <Row></Row>
+                <br />
+                <br />
                 <Row></Row>
                 <Row></Row>
+                <br />
+                <br />
                 <Row></Row>
                 <Row></Row>
                 <Row></Row>

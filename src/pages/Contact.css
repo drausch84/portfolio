@@ -4,32 +4,69 @@
     color: black;
     font-size:1.2em;
 }
-.contact-form{
-    text-align: center;
-    background:gray;
-    margin:100px;
-    border-radius:5%;
-    border: 3px solid #A00000;
-
-}
-.full-name{
-    border-bottom:1px solid #A00000;
+.form-container{
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 450px;
+    background-color: #2c3539;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    border-color: #A00000;
+    border-style: solid;
     
+}
+
+input[type=email]{
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+    color: black;
+    font-size:18px;
+    background: ghostwhite;
+    width: 50%;
+    height: 30px;
+
 }
 
 .email{
     border-bottom:1px solid #A00000;
+    margin: 2px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    background: ghostwhite;
     
 }
 
+.subject{
+    border-color:#A00000;
+    border-style: solid;
+    margin: 15px 2px;
+    color :black;
+    background: ghostwhite;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    width: 50%;
+    height: 30px;
+    text-align:left;
+}
+
 .message{
-    border-bottom: 1px solid #A00000;
+    border-color: #A00000;
+    border-style: solid;
+    margin: 2px;
+    color: black;
+    background: ghostwhite;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    height: 120px;
     
 }
 ::placeholder{
     font-family: 'Slabo 27px', serif;
     text-align: left;
-    color: black;
+    color: darkgray;
     font-size: 1.2em;
 }
 ::placeholder:after{
@@ -39,7 +76,23 @@
     font-size: 1.2em;
     border-bottom: 1px solid #A00000;
 }
-
+.submit-btn{
+    color: darkgray;
+    background: #A00000;
+    font-family: 'Slabo 27px';
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   
+}
+.submit-btn:active{
+    background: black;
+    color: ghostwhite;
+}
+.submit-btn:active:after{
+    background: black;
+    color: ghostwhite;
+}
 .superman-img{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
