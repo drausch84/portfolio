@@ -29,6 +29,7 @@ input[type=email]{
     height: 30px;
     border-color: #A00000;
     border-style: solid;
+    border-radius: 4px;
 
 }
 
@@ -44,6 +45,7 @@ input[type=email]{
 .subject{
     border-color:#A00000;
     border-style: solid;
+    border-radius: 4px;
     margin: 15px 2px;
     color :black;
     background: ghostwhite;
@@ -57,6 +59,7 @@ input[type=email]{
 .message{
     border-color: #A00000;
     border-style: solid;
+    border-radius: 4px;
     margin: 2px;
     color: black;
     background: ghostwhite;
