@@ -119,6 +119,8 @@ input[type=email]{
 .superman-img:hover{
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+    -webkit-transition: 1.3s;
+    transition: 1.3s;
 }
 
 .d-icon{
