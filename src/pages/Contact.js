@@ -57,7 +57,7 @@ class Contact extends Component{
                     <h6 className = "contact-p">Whether a potential client looking to work together on creating a dynamic project or an employeer looking to add a 
                     developer to their team, feel free to leave me a message and I will respond ASAP.</h6>
                     <hr width = "50%" />
-                        <div className = "icon-row" data-aos = "flip-up" data-aos-duration="1500">
+                        <div className = "icon-row" data-aos = "flip-up" data-aos-duration="2800">
                             <a href = "https://www.w3schools.com/htmL/" target = "_blank"><img src = {HTML} className = "d-icon"/></a>
                             <a href = "https://www.w3schools.com/css/default.asp" target = "_blank"><img src = {CSSIcon} className = "d-icon"/></a>
                             <a href = "https://www.w3schools.com/js/default.asp" target = "_blank"><img src = {JS} className = "d-icon"/></a>
@@ -72,7 +72,7 @@ class Contact extends Component{
                     <Col l = {2}></Col>
                     <Col l = {2}></Col>
                     <Col l = {4}>
-                        <div className = "icon-row"  data-aos = "flip-up" data-aos-duration="1500">
+                        <div className = "icon-row"  data-aos = "flip-up" data-aos-duration="2800">
                             <a href = "https://en.wikipedia.org/wiki/Git" target = "_blank"><img src = {Git} className = "d-icon"/></a>
                             <a href = "https://github.com" target = "_blank"><img src = {Github} className = "d-icon"/></a>
                             <a href = "https://about.gitlab.com" target = "_blank"><img src = {Gitlab} className = "d-icon"/></a>
@@ -87,7 +87,7 @@ class Contact extends Component{
                     <Col l = {2}></Col>
                     <Col l = {2}></Col>
                     <Col l = {4}>
-                        <div className = "icon-row"  data-aos = "flip-up" data-aos-duration="1500">
+                        <div className = "icon-row"  data-aos = "flip-up" data-aos-duration="2800">
                             <a href = "http://mongoosejs.com" target = "_blank"><img src = {Mongoose} className = "d-icon"/></a>
                             <a href = "https://www.mysql.com/" target = "_blank"><img src = {SQL} className = "d-icon"/></a>
                             <a href = "https://nodejs.org/en/" target = "_blank"><img src = {NodeIcon} className = "d-icon"/></a>
@@ -100,16 +100,33 @@ class Contact extends Component{
 
                 <Row>
                     <Col l = {12}>
-                    <div className = "contact-form">
-                        <form method="POST" action="https://formspree.io/rausch.david84@gmail.com">
-                        <input type = "full-name" className = "full-name" placeholder = "Your Full Name"/>
-                        <input type="email" className="email" placeholder="Your email"/>
-                        <textarea className="message" placeholder="Your message"></textarea>
-                        <button type="submit" className = "submit-btn">Send</button>
-                        </form>
+                    <div className="contact-container">
+                        {/* <form action="action_page.php"/>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+                            <label for="country">Country</label>
+                            <select id="country" name="country"/>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            <input type="submit" value="Submit"/>
+                        </form> */}
                     </div>
                     </Col>
                 </Row>
+                <Row></Row>
+                <Row></Row>
+                <Row></Row>
+                <Row></Row>
+                <Row></Row>
+                <Row></Row>
+                <Row></Row>
+                <Row></Row>
                 <Footer />
             </div>
         );

@@ -90,7 +90,7 @@
     100%{ transform: translate(1px, -2px) rotate(-1deg)}
 }
 
-body[data-aos-duration='1500'] [data-aos],
-  [data-aos][data-aos][data-aos-duration='1500'] {
-    transition-duration: 1500ms;
+body[data-aos-duration='2800'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='2800'] {
+    transition-duration: 2800ms;
   }

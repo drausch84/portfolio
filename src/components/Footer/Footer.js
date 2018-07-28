@@ -7,11 +7,11 @@ import Linkedin from "./linkedin.png";
 import Github from "./github.png";
 
 
+
 function Footer(){
    return <footer className = "footer">
-   <div>
-        <Row>
-        </Row>        
+   <div>     
+        <Row></Row>
         <Row>
         <Col s = {2}>
         </Col>    
@@ -27,6 +27,7 @@ function Footer(){
          <Col s = {2} className = "contact-icon">
             <a href = "https://github.com/drausch84" target = "_blank"><img src = {Github} className = "contact-icon" /></a>
          </Col>
+        
         </Row>
         
         <Row>
@@ -34,6 +35,11 @@ function Footer(){
               <span>  © 2018 David Rausch</span>
             </Col>
         </Row>      
+        <Row>
+            <Col l = {12}>
+                
+            </Col>
+        </Row>
    </div>
    
     </footer>
