@@ -41,7 +41,7 @@ class Contact extends Component{
                     <Col l = {2}></Col>
                     <Col l = {2}>
                         <img src = {Superman} alt = "superman" className = "superman-img" height = "450" width = "450"/>
-                        <p className = "contact-p">Looking to fly high?  Needing a superhero developer?</p> 
+                        <h6 className = "contact-p">Looking to fly high?  Needing a superhero developer?</h6> 
                     </Col>
                     <Col l = {3}></Col>
                     <Col l = {3}>
@@ -54,8 +54,8 @@ class Contact extends Component{
                     <Col l = {2}></Col>
                     <Col l = {2}></Col>
                     <Col l = {4}>
-                    <p className = "contact-p">Whether a potential client looking to work together on creating a dynamic project or an employeer looking to add a 
-                    developer to their team, feel free to leave me a message and I will respond ASAP.</p>
+                    <h6 className = "contact-p">Whether a potential client looking to work together on creating a dynamic project or an employeer looking to add a 
+                    developer to their team, feel free to leave me a message and I will respond ASAP.</h6>
                     <hr width = "50%" />
                         <div className = "icon-row" data-aos = "flip-up" data-aos-duration="1500">
                             <a href = "https://www.w3schools.com/htmL/" target = "_blank"><img src = {HTML} className = "d-icon"/></a>

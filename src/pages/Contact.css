@@ -2,7 +2,7 @@
     font-family: 'Slabo 27px', serif;
     text-align: center;
     color: black;
-    font-size: 1.2em;
+    font-size:1.2em;
 }
 .contact-form{
     text-align: center;
@@ -52,6 +52,11 @@
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #A00000;
+}
+
+.superman-img:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 .d-icon{
