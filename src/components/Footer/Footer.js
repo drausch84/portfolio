@@ -5,7 +5,7 @@ import Mail from "./email.png";
 import Twitter from "./twitter.png";
 import Linkedin from "./linkedin.png";
 import Github from "./github.png";
-
+import ScrollButton from "../ScrollButton";
 
 
 function Footer(){
@@ -37,7 +37,7 @@ function Footer(){
         </Row>      
         <Row>
             <Col l = {12}>
-                
+                <ScrollButton />
             </Col>
         </Row>
    </div>
