@@ -34,7 +34,7 @@ class About extends Component{
                     adventures.  It's also what led me to a love of code.  The marriage between logic and creativity instantly grabbed my attention when
                     I began to learn about coding independently(introducing myself to C++ and Java).  Independent learning wasn't enough and I enrolled
                     into Regis University in Denver, CO to obtain my BS degree in Computer Science and will tentatively graduate in the fall of 2019.  My desire
-                    to learn more about the world of coding couldn't be contained to a college degree, however. I felt that the curriculum didn't focus much on 
+                    to learn more about the world of coding couldn't be contained to a college degree, however. I felt that the curriculum at Regis University didn't focus much on 
                     programming, which is my primary interest.  So I attended and graduated with an A average from the University of Denver's Coding Boot Camp on 
                     July 12, 2018.  </p>
                 </Col>

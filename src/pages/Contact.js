@@ -23,6 +23,7 @@ import ReactIcon from "./images/react-icon.png";
 import ReduxIcon from "./images/redux-icon.png";
 import Sequelize from "./images/sequelize-icon.png";
 
+
 class Contact extends Component{
     render(){
         return(
@@ -102,9 +103,9 @@ class Contact extends Component{
                     <Col l = {12}>
                     <div className="form-container">
                     <form method="POST" action="https://formspree.io/rausch.david84@gmail.com">
-                        <input type="email" className="email" placeholder="Your email"/>
-                        <input type = "subject" className = "subject" placeholder = "Subject"/>
-                        <textarea className="message" placeholder="Your message"></textarea>
+                        <input type="email" name="email" className = "email" placeholder="Your email"/>
+                        <input type = "subject" name = "subject" className = "subject" placeholder = "Subject"/>
+                        <textarea name="message" className = "message"placeholder="Your message"></textarea>
                         <button type="submit" className = "submit-btn">Send</button>
                     </form>
                     </div>
