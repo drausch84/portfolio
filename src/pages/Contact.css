@@ -82,13 +82,17 @@ input[type=email]{
     border-bottom: 1px solid #A00000;
 }
 .submit-btn{
-    color: darkgray;
+    color: ghostwhite;
     background: #A00000;
     font-family: 'Slabo 27px';
     margin-left: auto;
     margin-right: auto;
     display: flex;
     border-radius:10px;
+    padding: 8px 48px;
+    border-color: black;
+    border-style: solid;
+    font-size: 18px;
 }
 .submit-btn:hover{
     background:ghostwhite;
