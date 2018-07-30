@@ -8,6 +8,7 @@
     height:400px;
     border-color:#A00000;
     border-style: solid;
+    border-radius: 9px;
 }
 
 .card .card-image img {
