@@ -101,7 +101,7 @@ class Contact extends Component{
 
                 <Row>
                     <Col l = {12}>
-                    <div className="form-container" data-aos = "flip-down" data-aos-duration="2200">>
+                    <div className="form-container" data-aos = "zoom-in" data-aos-duration="2000">>
                     <form method="POST" action="https://formspree.io/rausch.david84@gmail.com">
                         <input type="email" name="email" className = "email" placeholder="Your email"/>
                         <input type = "subject" name = "subject" className = "subject" placeholder = "Subject"/>

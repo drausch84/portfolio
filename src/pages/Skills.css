@@ -1,0 +1,15 @@
+.dev-skills{
+    font-family: "Anton", serif;
+    text-align: center;
+}
+
+body[data-aos-duration='2000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='2000'] {
+    transition-duration: 2000ms;
+}
+
+.dev-p{
+    font-family: "Slabo 27px", serif;
+    text-align: center;
+    font-size: 16px;
+}
