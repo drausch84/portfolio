@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Route} from "react-router-dom";
+import { Route, Switch} from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -13,7 +13,8 @@ import PageShell from "./components/PageShell";
 class App extends Component{
   render(){
     return(
-      <div className = "App">
+    <div className = "App">
+      <Switch>
         <Route path = "/" exact component = {PageShell(Home)}></Route>
         <Route path = "/about-me" exact component = {PageShell(About)}></Route>
         <Route path = "/portfolio" exact component = {PageShell(Portfolio)}></Route>
@@ -21,7 +22,8 @@ class App extends Component{
         <Route path = "/art" exact component = {PageShell(Art)}></Route>
         <Route path = "/contact" exact component = {PageShell(Contact)}></Route>
         <Route path = "*" exact component = {PageShell(PageNotFound)}></Route>
-      </div> 
+      </Switch>
+    </div> 
         );
   };
 };
