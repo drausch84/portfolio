@@ -1,0 +1,14 @@
+.error-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 1000px;
+}
+
+.redirect{
+    color: black;
+    font-size: 28px;
+    font-family: 'Cormorant', serif;
+    text-align: center;
+}

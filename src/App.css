@@ -1,31 +1,67 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-header {
+/* DEMO STYLES */
+.nav {
+  padding: 30px 0;
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+}
+.nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin: 0 15px;
+  padding: 10px;
+  border: 1px rgba(255,255,255,0.5) solid;
+  transition: all 0.3s linear;
+  text-decoration: none;
   color: white;
 }
-
-.App-title {
-  font-size: 1.5em;
+.nav a.active {
+  background-color: #61DAFB;
+  color: #222;
+}
+section {
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
 }
 
-.App-intro {
-  font-size: large;
+/* simple - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.fade-exit {
+    opacity: 1;
 }
-body{
-  background:mintcream;
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
 }
+
