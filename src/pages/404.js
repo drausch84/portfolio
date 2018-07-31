@@ -6,7 +6,7 @@ import ErrorImg from "./images/404-image.jpg";
 class PageNotFound extends Component{
     render(){
         return (
-            <div>
+            <div className = "error-div">
                
                         <img src = {ErrorImg} alt = "error-img" className = "error-img" />
                 

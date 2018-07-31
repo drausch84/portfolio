@@ -4,6 +4,8 @@
     margin-right: auto;
     height: 800px;
     width: 1000px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .redirect{
@@ -11,4 +13,7 @@
     font-size: 28px;
     font-family: 'Cormorant', serif;
     text-align: center;
+}
+.error-div{
+    background: #F0F0F0
 }
