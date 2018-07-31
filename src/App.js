@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {TransitionGroup, CSSTransition} from "react-transition-group";
 import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -15,16 +14,10 @@ class App extends Component{
   render(){
     return(
       
-      <Route render = {({location}) => (
+      
       <div className = "App">
         
-        <TransitionGroup>
-          <CSSTransition
-            key = {location.key}
-            timeout={300}
-            classNames = "fade"
-            >
-            <Switch location = {location}>
+        
               <Route path = "/" exact component = {PageShell(Home)}></Route>
               <Route path = "/about-me" exact component = {PageShell(About)}></Route>
               <Route path = "/portfolio" exact component = {PageShell(Portfolio)}></Route>
@@ -32,12 +25,9 @@ class App extends Component{
               <Route path = "/art" exact component = {PageShell(Art)}></Route>
               <Route path = "/contact" exact component = {PageShell(Contact)}></Route>
               <Route path = "*" exact component = {PageShell(PageNotFound)}></Route>
-            </Switch>
-          </CSSTransition>
-      </TransitionGroup>
-    
-      // </div> 
-        )}/>
+        
+       </div> 
+        
       
 
     )
