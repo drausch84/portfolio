@@ -33,6 +33,40 @@ class Skills extends Component{
                     
                 </Row>
                 <Row></Row>
+                <Row>
+                    <Col l = {4}>
+                        <h4 className = "front-end-skills">Front End</h4>
+                            <ul className = "a">
+                                <li>Bootstrap CSS</li>
+                                <li>Materialize CSS</li>
+                                <li>CSS 3</li>
+                                <li>HTML 5</li>
+                                <li>Javascript</li>
+                            </ul>    
+                    </Col>
+                    <Col l = {4}>
+                        <h4 className = "frameworks">Frameworks</h4>
+                            <ul className = "a">
+                                <li>ReactJS</li>
+                                <li>Redux</li>
+                                <li>jQuery</li>
+                                <li>Laravel</li>
+                                <li>HandlebarsJS</li>
+                            </ul>
+                    </Col>
+                    <Col l = {4}>
+                        <h4 className = "backend">Back End</h4>
+                    </Col>
+                </Row>
+                <Row></Row>
+                <br />
+                <Row></Row>
+                <Row></Row>
+                <br />
+                <Row></Row>
+                <Row></Row>
+                <br />
+                <Row></Row>
                 <Row></Row>
                 <br />
                 <Row></Row>
