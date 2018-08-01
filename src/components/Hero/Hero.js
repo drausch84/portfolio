@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Hero.css";
-import Picture from "./me.jpg";
+import Picture from "./me-beach.jpg";
 
 function Hero (){
     return <img src = {Picture} className = "profile-pic"/>
